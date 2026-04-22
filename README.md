@@ -3,7 +3,7 @@
 
 sysrq-info reads the kernel’s SysRq configuration from /proc/sys/kernel/sysrq and displays a colorized table of SysRq trigger keys, including their ASCII hex values and whether they are currently enabled or disabled. Also evaluates (( SYSRQ_VAL &amp; flag )) to determine whether each capability is enabled based on the kernel’s bitmask.
 
-You can then use these values in your C code.
+You can then use these values in your C code, or choose to disable/enable codes.
 
 # How to install
 1. download sysrq-info.sh on your GNU/Linux Machine. 
