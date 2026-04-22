@@ -8,7 +8,7 @@ You can then use these values in your C code.
 # How to install
 1. download sysrq-info.sh on your GNU/Linux Machine. 
    (Won't work on Windows or Mac)
-2. Run `sudo install -m 755 sysrq-info /usr/local/bin/sysrq-inf`
+2. Run `sudo install -m 755 sysrq-info /usr/local/bin/sysrq-info`
 3. Run `bash /usr/local/bin/sysrq-info`
 4. If it works (and it should), congrats, you now have sysrq-info.
 5. You can add aliases to your ~/.bashrc file to make `sysrq-info` a command in your terminal
